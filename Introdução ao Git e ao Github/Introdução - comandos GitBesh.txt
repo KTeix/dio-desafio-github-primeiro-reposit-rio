@@ -5,9 +5,9 @@ Após baixar o git e instalar, execute o guitbesh. Após executar o Gitbesh, vis
 esse terminal permite criar e acessar arquivos sicronizados diretamente de sua maquina com a
 plataforma GitHub. Segue abaixo um breve tutorial para conseguir navegar no GitBesh.
  Pode-se usar o comando dir para verificar os diretórios(caminho para pastas com arquivos) disponiveis,
-para acessar diretórios exibidos pelo gitbash, pode-se usar o comando cd nomedapasta/, que o levara a pasta desejada. Após acessar sua pasta
-é possivel criar novas pastas com o comando mkdir, por exemplo, crie uma nova pasta usando mkdir Desafiodio e para acessa-la utilize cd desafiodio,
+para acessar diretórios exibidos pelo gitbash, pode-se usar o comando "cd nomedapasta/"importante ressaltar não esqueça da barra no finaldo nome do arquivo, que o levara a pasta desejada. 
+Após acessar a pasta é possivel criar novas pastas com o comando mkdir.
+Por exemplo, crie uma nova pasta usando o comando  "mkdir Desafiodio" e, para acessa-la utilize "cd desafiodio/",
 a após acessala- pode-se criar um arquivo de texto manualmente ou usar o comando cat > nome.text, para sair do arquivo texto e modo edição pressione control z na tela do git.bash.
 
- Caso deseje acessar uma pasta anterior, utilize o comando cd .., importante ressaltar que para apagar arquivos em pastas via git.bash utiliza-se o comando, del nomearquivo, e para apagar pastas 
-utilize o comando rmdir nomepasta.
+ Caso deseje retornar para uma pasta, utilize o comando cd .., importante ressaltar que para apagar arquivos em pastas via git.bash utiliza-se o comando, "del nomearquivo", e para apagar pastas  utilize o comando "rmdir nomepasta".
