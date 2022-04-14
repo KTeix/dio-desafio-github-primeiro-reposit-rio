@@ -10,4 +10,4 @@ Após acessar a pasta é possivel criar novas pastas com o comando mkdir.
 Por exemplo, crie uma nova pasta usando o comando  "mkdir Desafiodio" e, para acessa-la utilize "cd desafiodio/",
 a após acessala- pode-se criar um arquivo de texto manualmente ou usar o comando cat > nome.text, para sair do arquivo texto e modo edição pressione control z na tela do git.bash.
 
- Caso deseje retornar para uma pasta, utilize o comando cd .., importante ressaltar que para apagar arquivos em pastas via git.bash utiliza-se o comando, "del nomearquivo", e para apagar pastas  utilize o comando "rmdir nomepasta".
+ Caso deseje retornar para uma pasta, utilize o comando cd .., importante ressaltar que para apagar arquivos em pastas via git.bash utiliza-se o comando, "del nomearquivo", e para apagar pastas  utilize o comando "rmdir nomepasta"..
