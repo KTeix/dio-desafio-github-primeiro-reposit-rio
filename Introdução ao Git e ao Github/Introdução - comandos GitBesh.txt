@@ -1,0 +1,13 @@
+O GitBesh é um terminal adatpdo para utilizar o GitHub utilizando o host local do propio computador.
+Passo 1 para instalar o git, deve-se baixar o instalador no link [Instalador git]("https://git-scm.com/download/win")
+
+Após baixar o git e instalar, execute o guitbesh. Após executar o Gitbesh, visualizara um terminal parecido com o cmd,
+esse terminal permite criar e acessar arquivos sicronizados diretamente de sua maquina com a
+plataforma GitHub. Segue abaixo um breve tutorial para conseguir navegar no GitBesh.
+ Pode-se usar o comando dir para verificar os diretórios(caminho para pastas com arquivos) disponiveis,
+para acessar diretórios exibidos pelo gitbash, pode-se usar o comando cd nomedapasta/, que o levara a pasta desejada. Após acessar sua pasta
+é possivel criar novas pastas com o comando mkdir, por exemplo, crie uma nova pasta usando mkdir Desafiodio e para acessa-la utilize cd desafiodio,
+a após acessala- pode-se criar um arquivo de texto manualmente ou usar o comando cat > nome.text, para sair do arquivo texto e modo edição pressione control z na tela do git.bash.
+
+ Caso deseje acessar uma pasta anterior, utilize o comando cd .., importante ressaltar que para apagar arquivos em pastas via git.bash utiliza-se o comando, del nomearquivo, e para apagar pastas 
+utilize o comando rmdir nomepasta.

@@ -1,0 +1,21 @@
+Para criar seu repositório no site da GitHub, na interface, clique no simbolo de + no canto superior direito,
+clique em New repository, digite o nome do projeto e descrição nos dois campos que aparecera. 
+
+2- Selecione se sera um repositório publico ou privado.
+E seu repositório esta criado.
+
+Para enviar um repositório de sua maquina para o repositorio.
+Abra o diretório no Github, clique em code, copie o link da aba HTTPS, 
+
+2 abra a pasta que deseja utiliza, clique com o botão direito e selecione " git besh here" e digite o comando git clone linkcopiado.
+
+Enviando arquivos para o repósitorio de sua maquina.
+
+1 - para visualizar as pastas criadas digite git status.
+
+2 - para adicionar a pasta que deseja enviar para o github, digite git add.
+
+3 - digite, git commit -m "nome do arquivo".
+
+4 -git push origin main, esse comando envia todos seus commits para nuvem.
+

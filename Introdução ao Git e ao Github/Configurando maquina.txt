@@ -1,0 +1,37 @@
+
+Para conectar sua maquina ao github(windows) é necessario gerar uma chave SSH que seu computador vai usar pra se autorizar com o Github. Digite o seguinte comando no Git Bash:
+ssh-keygen -t ed22519 -C "seu_email@dominio.com" 
+
+Depois, ele vai pedir uma senha:
+Enter passphrase (empty for no passphrase): [Type a passphrase]  
+Enter same passphrase again: [Type passphrase again]  
+Essa senha sera utilizada toda vez que necessitar baixar  ou utilizar algum repósitório privado no github.
+
+Em seguida, você verá uma mensagem dizendo que deu tudo certo:
+Your identification has been saved in /Users/you/.ssh/id_rsa.  
+# Your public key has been saved in /Users/you/.ssh/id_rsa.pub.
+# The key fingerprint is:
+# 01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db seuemail@dominio.com
+
+2- Agora vá até a pasta que possui a chave criada, para isso utilize o comando abaixo:
+cd /c/users/nomedocomputador/.ssh/
+
+3- visualize a chave criada com o comando - cat id_ed25519.pub
+Após executar esse comando aparecera uma chave por exemplo, ssh-ed AAAC3NAC1SDSJF/SDJSAD.
+
+4- copie a chave gerada, acesse seu github, clique em sua foto, após abrir seu perfil clique em SSH and GPG keys.
+
+5 - Clique em new SSH key, escreva o titulo de seu projeto "projeto" e na aba key, cole sua chave gerada ssh-ed AAAC3NAC1SDSJF/SDJSAD.
+
+6 - Agora que sua chave apareceu criada no github, digite pwd e sera demonstrado o caminho completo para sua chave.
+
+7 - agora para iniciar sua chave, é necessario iniciar o ssh agent, a entidade que ficara encarregada de executar as chaves, para isso
+digite no git.bash o comando a seguir , eval $(ssh-agent -s)
+
+8 - agora para conectar sua chave a chave gerada digite ssh-add id_ed25519.
+
+Pronto agora sua chave esta funcionado e ja pode clonar diretórios ou enviar arquivos para o github :).
+
+
+
+ 
